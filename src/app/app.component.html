@@ -1,0 +1,18 @@
+<div [ngClass]="getRoute()">
+<header>
+  <nav >
+    <div class="row">
+      <!-- <img src="../assets/img/logo.png" alt="" class="logo"> -->
+      <ul class="main-nav">
+        <li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"><a routerLink="/">Home</a></li>
+        <li routerLinkActive="active"><a routerLink="ContactsList">List contacts</a></li>
+        <li routerLinkActive="active"><a [routerLink]="['AddContact']">Add contact</a></li>
+        <li><a href="#">Sign up</a></li>
+      </ul>
+    </div>
+  </nav>
+  
+</header>
+<router-outlet></router-outlet>
+
+</div>
