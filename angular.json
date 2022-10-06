@@ -137,5 +137,8 @@
         }
       }
     }},
-  "defaultProject": "contact-information"
+  "defaultProject": "contact-information",
+  "cli": {
+    "analytics": false
+  }
 }
